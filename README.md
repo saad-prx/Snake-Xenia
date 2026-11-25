@@ -31,10 +31,9 @@ A grid-based Snake game in C++ using SFML. Programming Fundamentals final projec
 - Esc: quit.
 
 ## Credits List: 
-- Sprite 
-- Backgrounds and OST generated through claude.ai
+- Snake Sprite skins, backgrounds and OST generated through Claude.ai (https://claude.ai/new)
 - Eating sound "Apple Krunch 16" by Koops downloaded from freesound (https://freesound.org/people/Koops/sounds/20279/)
-- inspiration taken from "Snake Game Assets Pico-8" by Cosme (http://cosme.itch.io/snake)
+- Sprite design inspiration taken from "Snake Game Assets Pico-8" by Cosme (http://cosme.itch.io/snake)
 
 ## Team Names and roll numbers
 - Muhammad Saad 26L-2613
