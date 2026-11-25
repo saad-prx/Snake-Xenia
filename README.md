@@ -1,6 +1,7 @@
 # Snake Xenia
 
-A grid-based Snake game in C++ using SFML. Programming Fundamentals final project, FAST-NUCES Lahore. 
+A grid-based Snake game in C++ using SFML.
+Programming Fundamentals final project, FAST-NUCES Lahore. 
 
 ## Features
 - Menu with 3 levels (Grass, Sand, Dirt)
@@ -32,11 +33,17 @@ A grid-based Snake game in C++ using SFML. Programming Fundamentals final projec
 - Esc: quit.
 
 ## Credits List: 
-- Snake Sprite skins, backgrounds and OST generated through Claude.ai (https://claude.ai/new)
+- Snake Sprite skins, backgrounds and OST generated through Claude.ai
 - Eating sound "Apple Krunch 16" by Koops downloaded from freesound (https://freesound.org/people/Koops/sounds/20279/)
 - Sprite design inspiration taken from "Snake Game Assets Pico-8" by Cosme (http://cosme.itch.io/snake)
 
-## Team Names and roll numbers
+## Team Names and Roll Numbers
 - Muhammad Saad 26L-2613
 - Muhammad Ahmad Munir 26L-2593
 - Subhan Ilyas 26L-2610
+
+## Mentors and Instructors
+- Muhammad Zeeshan Nazar
+- Hamza Naveed
+
+
