@@ -6,6 +6,9 @@ Release/
 *.obj
 *.pdb
 *.ilk
+*.idb
+*.tlog
+*.ipch
 *.exe
 *.user
 *.log
