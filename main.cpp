@@ -452,16 +452,16 @@ int main() {
                 }
                 else {
                     // arrow key inputs for the head of the snake
-                    if (event.key.code == sf::Keyboard::Up && nextDirY != 1) {
+                    if (event.key.code == sf::Keyboard::Up && dirY != 1) {
                         nextDirX = 0;  nextDirY = -1;
                     }
-                    else if (event.key.code == sf::Keyboard::Down && nextDirY != -1) {
+                    else if (event.key.code == sf::Keyboard::Down && dirY != -1) {
                         nextDirX = 0;  nextDirY = 1;
                     }
-                    else if (event.key.code == sf::Keyboard::Left && nextDirX != 1) {
+                    else if (event.key.code == sf::Keyboard::Left && dirX != 1) {
                         nextDirX = -1; nextDirY = 0;
                     }
-                    else if (event.key.code == sf::Keyboard::Right && nextDirX != -1) {
+                    else if (event.key.code == sf::Keyboard::Right && dirX != -1) {
                         nextDirX = 1;  nextDirY = 0;
                     }
                 }
