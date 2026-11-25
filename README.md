@@ -41,8 +41,8 @@ Programming Fundamentals final project, FAST-NUCES Lahore.
 
 
 ## Mentors and Instructors
-- Muhammad Zeeshan Nazar
-- Hamza Naveed
+- Sir Muhammad Zeeshan Nazar
+- Sir Hamza Naveed
 
 
 ## Team Names and Roll Numbers
