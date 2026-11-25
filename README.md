@@ -26,7 +26,7 @@ A grid-based Snake game in C++ using SFML. Programming Fundamentals final projec
 - Enter: start or restart.
 - L: menu after game over.
 - M: mute.
-- [ and ]: volume.
+- [ and ]: music volume.
 - P: music speed-up.
 - Esc: quit.
 
