@@ -41,11 +41,6 @@ const int TailDownCol = 3, TailDownRow = 7;
 const int TailRightCol = 4, TailRightRow = 7;
 
 
-//adding a solid square background.
-const int SolidX = 1 * Tile + 1;
-const int SolidY = 2 * Tile + 1;
-const int SolidSize = 6;
-
 //adding different levels and a background for menu.
 const int NumLevels = 3;
 string sheetFiles[NumLevels] = { "assets/snake1.png", "assets/snake2.png", "assets/snake3.png" };
@@ -87,14 +82,6 @@ void drawTile(sf::RenderWindow& window, sf::Sprite& sprite, int TileCol, int Til
     window.draw(sprite);
 }
 
-//drawSolid draws a colored rectangle using a sprite.
-void drawSolid(sf::RenderWindow& window, sf::Sprite& sprite, int Xaxis, int Yaxis, int width, int height, sf::Color color) {
-    sprite.setTextureRect(sf::IntRect(SolidX, SolidY, SolidSize, SolidSize));
-    sprite.setScale((float)width / SolidSize, (float)height / SolidSize);
-    sprite.setColor(color);
-    sprite.setPosition((float)Xaxis, (float)Yaxis);
-    window.draw(sprite);
-}
 
 //converts grid cell size to pixels
 int cellXaxis(int x) {
@@ -465,16 +452,16 @@ int main() {
                 }
                 else {
                     // arrow key inputs for the head of the snake
-                    if (event.key.code == sf::Keyboard::Up && nextDirY != 1) {
+                    if (event.key.code == sf::Keyboard::Up && dirY != 1) {
                         nextDirX = 0;  nextDirY = -1;
                     }
-                    else if (event.key.code == sf::Keyboard::Down && nextDirY != -1) {
+                    else if (event.key.code == sf::Keyboard::Down && dirY != -1) {
                         nextDirX = 0;  nextDirY = 1;
                     }
-                    else if (event.key.code == sf::Keyboard::Left && nextDirX != 1) {
+                    else if (event.key.code == sf::Keyboard::Left && dirX != 1) {
                         nextDirX = -1; nextDirY = 0;
                     }
-                    else if (event.key.code == sf::Keyboard::Right && nextDirX != -1) {
+                    else if (event.key.code == sf::Keyboard::Right && dirX != -1) {
                         nextDirX = 1;  nextDirY = 0;
                     }
                 }
