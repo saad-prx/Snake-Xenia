@@ -3,7 +3,7 @@
 A grid-based Snake game in C++ using SFML. Programming Fundamentals final project, FAST-NUCES Lahore. 
 
 ## Features
-- Menu with 3 levels (Grass, Sand, Dirt
+- Menu with 3 levels (Grass, Sand, Dirt)
 - Directional snake sprites, 3 fruit types
 - Score and saved high score
 - Sound effects and background music (mute, volume, speed-up) 
