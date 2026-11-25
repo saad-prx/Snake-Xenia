@@ -152,8 +152,6 @@ void UndoMove() { //To make game look cleaner it shows as if you hit the wall, b
 bool CheckCollision() {
     if ((snakeX[0] < 0 || snakeX[0] >= Cols) || (snakeY[0] < 0 || snakeY[0] >= Rows)) { //Wall Collision checks if the snakes head position is 
         // at the edges then returns true to end the game
-        cout << snakeX[0] << " ";
-        cout << snakeY[0] << endl;
         return true;
     }
 
