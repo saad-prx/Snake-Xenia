@@ -16,8 +16,9 @@ A grid-based Snake game in C++ using SFML. Programming Fundamentals final projec
 ## Installation and Setup
 1. Clone the repo.
 2. Open the .slnx in Visual Studio, platform x64.
-3. Make sure the SFML include and lib paths in Project Properties point to your SFML folder.
-4. Build and run from Visual Studio (F5). 
+3. Download SFML 2.6.1 and extract the zip file to drive C.
+4. Make sure the SFML include and lib paths in Project Properties point to your SFML folder.
+5. Build and run from Visual Studio (F5). 
 
 
 ## Usage / Controls
